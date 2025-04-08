@@ -61,7 +61,7 @@ mysql -u root -p
 ~~~
 Puedes ver el proceso en a siguiente imagen:
 
-![](images/sqli9.png)
+![](images/pps-lamp-2.png)
 
 y una vez conectado introducimos las consultas sql necesarias para crear la base de datos, tabla e introducir los datos de los usuarios:
 
@@ -78,7 +78,7 @@ INSERT INTO usuarios (usuario, contrasenya) VALUES ('admin', '1234'), ('usuario'
 
 Vemos como se ha creado correctamente, tanto Base de Datos, como tabla y usuarios:
 
-![](images/sqli10.png)
+![](images/PPS-lamp-1.png)
 
 
 **OPCIÓN 2: a través de PHPmyAdmin**
@@ -88,11 +88,11 @@ Vemos como se ha creado correctamente, tanto Base de Datos, como tabla y usuario
 
 - Al pulsar la opción de sql, podemos ejecutar las sentencias de sql que necesitemos.
 
-![](images/sqli15.png)
+![](images/PPS-lamp-2.png)
 
 - Por lo tanto, tan sólo tenemos que introducir las sentencias SQL del apartado anterior.
 
-![](images/sqli16.png)
+![](images/PPS-lamp-4.png)
 
 
 **OPCIÓN 3: completamente de manera gráfica**
@@ -100,7 +100,7 @@ Vemos como se ha creado correctamente, tanto Base de Datos, como tabla y usuario
 
 - Accedemos via web al servicio de phpmyadmin que tenemos instalado: <http://localhost:8080>
 
-![](images/sqli2.png)
+![](images/PPS-lamp-2.png)
 
 - Creamos una base de datos nueva, pulsando el botón de _Nueva_
 
