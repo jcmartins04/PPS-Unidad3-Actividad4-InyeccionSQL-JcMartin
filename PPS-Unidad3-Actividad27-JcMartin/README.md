@@ -1,8 +1,8 @@
-# PPS-Unidad3-Actividad27-JcMartin
+# PPS-Unidad3Actividad27
 
 Vemos el archivo xml
 
-![](Imagenes/apk1.png)
+![](Imagenes/imagen1.png)
 
 
 Vemos los permisos y sus vulnerabilidades
@@ -27,18 +27,18 @@ Levantamos el docker
 
 docker pull opensecurity/mobile-security-framework-mobsf:latest
 
-![](Imagenes/apk2.png)
+![](Imagenes/imagen2.png)
 
 docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
 
-![](Imagenes/apk3.png)
+![](Imagenes/imagen3.png)
 
 Entramos por el navegador y subimos nuestra apk
 
 
-![](Imagenes/apk4.png)
+![](Imagenes/imagen4.png)
 
 
-Y explortamos el report en ![pdf](report_apk_privaa_jc.pdf)
+Y explortamos el report en ![pdf](report.pdf)
 
 
